@@ -5,6 +5,7 @@
 # we cover methods in a separate module
 def enable_pin(user, pin):
     print('pin enabled')
+    print(user,pin)
 
 # Set current_user and pin to test values
 current_user = 'TEST123'

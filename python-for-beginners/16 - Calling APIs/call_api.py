@@ -11,7 +11,7 @@ import json
 
 # You need to update the SUBSCRIPTION_KEY to 
 # they key for your Computer Vision Service
-SUBSCRIPTION_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+SUBSCRIPTION_KEY = "bdf038d1f3a448768ddc1d1e12d08e3e"
 
 # You need to update the vision_service_address to the address of
 # your Computer Vision Service
@@ -26,7 +26,7 @@ parameters  = {'visualFeatures':'Description,Color',
                'language':'en'}
 
 # Open the image file to get a file object containing the image to analyze
-image_path = "./TestImages/PolarBear.jpg"
+image_path = "d:/temp/TestImages/PolarBear.jpg"
 image_data = open(image_path, "rb").read()
 
 # According to the documentation for the analyze image function

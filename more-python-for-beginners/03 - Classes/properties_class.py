@@ -14,5 +14,6 @@ class Presenter():
 		self.__name = value
 
 presenter = Presenter('Chris')
+print(presenter.name)
 presenter.name = 'Christopher'
 print(presenter.name)
